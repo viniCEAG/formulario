@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=   <h1>Formulário de Contato</h1>
+    
+    <form action="/enviar" method="POST">
+        <!-- Nome Completo -->
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" required placeholder="Digite seu nome completo">
+        <br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="exemplo@dominio.com">
+        <br><br>
+
+        <!-- Telefone -->
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="(99) 99999-9999">
+        <br><br>
+
+        <!-- Mensagem/Pergunta -->
+        <label for="mensagem">Mensagem/Pergunta:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui"></textarea>
+        <br><br>
+
+        <!-- Receber Novidades -->
+        <label for="novidades">
+            <input type="checkbox" id="novidades" name="novidades">
+            Gostaria de receber novidades?
+        </label>
+        <br><br>
+
+        <!-- Botão Enviar -->
+        <input type="submit" value="Enviar">
+    </form>
+
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
